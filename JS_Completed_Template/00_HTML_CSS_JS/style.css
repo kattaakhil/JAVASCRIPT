@@ -1,0 +1,121 @@
+header , footer{
+            background-color: #421F02;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        body{
+            margin: 0;
+            font-family: "Franklin Gothic Book",sans-serif;
+        }
+        /* main navigation */
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-color: #843E03;
+            overflow: hidden;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 14px 25px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background-color: #B05304;
+        }
+        nav ul li a.active{
+            background-color: #582A02;
+        }
+
+        /* Sidebar Section */
+        aside{
+            float: left;
+            min-width: 200px;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color:  #421F02;
+            padding: 14px 18px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: #B05304;
+            color: white;
+        }
+
+        /* main Section */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid #421F02;
+            padding: 10px;
+        }
+        details{
+            background-color: #9A4804;
+            padding: 14px;
+            margin: 5px;
+            color: white;
+        }
+        article{
+            background-color: #F7B176;
+            color: black;
+            padding: 10px;
+        }
+        article h2{
+            color: #421F02;
+        }
+        .buttons{
+            text-align: center;
+            padding: 5px;
+        }
+        #red{
+            font-family:"Comic Sans MS", sans-serif;
+            color: white;
+            font-size: 25px;
+            padding: 10px 35px;
+            background-color: red;
+            margin: 0px;
+            border: 0;
+            border-radius: 45px;
+        }
+        #green{
+            font-family:"Comic Sans MS", sans-serif;
+            color: white;
+            font-size: 25px;
+            padding: 10px 35px;
+            background-color: green;
+            margin: 0px;
+            border: 0;
+            border-radius: 45px;
+        }
+        #blue{
+            font-family:"Comic Sans MS", sans-serif;
+            color: white;
+            font-size: 25px;
+            padding: 10px 35px;
+            background-color: blue;
+            margin: 0px;
+            border: 0;
+            border-radius: 45px;
+        }
+        #yellow{
+            font-family:"Comic Sans MS", sans-serif;
+            color: white;
+            font-size: 25px;
+            padding: 10px 35px;
+            background-color: yellow;
+            margin: 0px;
+            border: 0;
+            border-radius: 45px;
+        }
